@@ -288,7 +288,7 @@ export default function Home() {
                       handleSubmit(e);
                     }
                   }}
-                  placeholder="Ask a question about company policies, HR procedures, or employee benefits... (minimum 10 characters)"
+                  placeholder="Ask a question about company policies, HR procedures, employee benefits, and more... (minimum 10 characters)"
                   rows={1}
                   className="max-h-32 flex-1 resize-none border-0 bg-transparent px-2 py-2 text-base text-black placeholder-zinc-500 focus:outline-none dark:text-zinc-50 dark:placeholder-zinc-400"
                 />

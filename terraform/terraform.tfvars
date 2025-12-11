@@ -1,0 +1,15 @@
+project_name             = "twin"
+environment              = "dev"
+bedrock_model_id         = "amazon.nova-lite-v1:0"
+lambda_timeout           = 300
+lambda_memory_size       = 512
+api_throttle_burst_limit = 10
+api_throttle_rate_limit  = 5
+use_custom_domain        = false
+root_domain              = ""
+bedrock_aws_region       = "us-east-1"
+chroma_api_key           = "ck-9mkd6VBfUd3GeXLeE7sN5urxLzYACxZkDYsLHAogTbmQ"
+chroma_collection_name   = "collection_bedrock"
+chroma_database          = "vecdb_bedrock"
+chroma_tenant            = "3f7e1866-298f-46b6-b369-b82e89c628c7"
+default_aws_region       = "ca-central-1"

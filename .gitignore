@@ -26,7 +26,7 @@ lambda-deployment.zip
 
 # Layer
 packages/
-dist/
+#dist/
 scripts_bkp/
 
 extras/

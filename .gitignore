@@ -1,12 +1,11 @@
 #Terraform
 .terraform
-terraform/*
 .terraform.lock.hcl
 *.tfstate
 *.tfstate.*
-*.tfvars
+#*.tfvars
 terraform.tfstate.d/
-terraform.tfvars
+#terraform.tfvars
 prod.tfvars
 
 #Python
@@ -28,20 +27,18 @@ lambda-deployment.zip
 # Layer
 packages/
 dist/
-scripts/
 scripts_bkp/
 
 extras/
 
 # Environment variables 
+# env files (can opt-in for committing if needed)
 .env
 .env.local
 .env.development.local
-!.env.example
 
 # IDE
 .cursor
-scripts/
 vec*/
 DS_Store
 
@@ -80,9 +77,6 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
 # vercel
 .vercel
 
@@ -91,3 +85,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+to_delete*
